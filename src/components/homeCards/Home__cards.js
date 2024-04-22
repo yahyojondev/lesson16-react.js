@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { cardsproduct } from "../../static";
+import { FaRegHeart } from "react-icons/fa";
+import { LuShoppingCart } from "react-icons/lu";
 function Home__cards() {
   const carditem = cardsproduct?.map((el) => (
     <div key={el.id} className="card">
@@ -13,6 +15,10 @@ function Home__cards() {
           <li className="delprice">{el.delprice}</li>
           <li className="modtext">{el.modtext}</li>
         </ul>
+        <div className="card__like__wrapper">
+          <FaRegHeart className="card__like" />
+          <LuShoppingCart className="card__like" />
+        </div>
       </div>
     </div>
   ));
