@@ -4,6 +4,7 @@ import rasm1 from "../../assets/images/absoluteimg.svg";
 import rasm2 from "../../assets/images/absoluteimg2.png";
 import rasm3 from "../../assets/images/absoluteimg3.png";
 import Home__cards from "../../components/homeCards/Home__cards";
+import MenRunning from "../../components/menRunning/MenRunning";
 
 function Home() {
   return (
@@ -51,6 +52,7 @@ function Home() {
         </div>
       </div>
       <Home__cards />
+      <MenRunning />
     </div>
   );
 }
