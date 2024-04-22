@@ -1,4 +1,5 @@
 .hero {
+  position: relative;
   padding-top: 250px;
   background: url(../../assets/images/herobg.png) no-repeat;
   background-position: center;
@@ -15,6 +16,104 @@
       font-weight: 700;
       line-height: 150%;
       letter-spacing: 0.5px;
+    }
+  }
+}
+.home__cardabsolute {
+  position: absolute;
+  bottom: -200px;
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  height: 504px;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0px 0px 2px 2px white;
+  border-radius: 10px;
+  .home__card {
+    padding: 20px 30px;
+    width: 100%;
+    max-width: 450px;
+    align-items: center;
+    .titles {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .img__text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      div,
+      .price__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        span {
+          color: rgb(144, 152, 177);
+          font-family: Poppins;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 150%;
+          letter-spacing: 0.5px;
+        }
+        p {
+          color: rgb(251, 113, 129);
+          font-family: Poppins;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 150%;
+          letter-spacing: 0.5px;
+        }
+      }
+    }
+    h4 {
+      width: 100%;
+      max-width: 202px;
+      color: rgb(34, 50, 99);
+      font-family: Poppins;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 150%;
+      letter-spacing: 0.5px;
+    }
+    div {
+      img {
+        width: 100%;
+        max-width: 450px;
+      }
+
+      .price__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        span {
+          color: rgb(144, 152, 177);
+          font-family: Poppins;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 150%;
+          letter-spacing: 0.5px;
+        }
+        p {
+          color: rgb(251, 113, 129);
+          font-family: Poppins;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 150%;
+          letter-spacing: 0.5px;
+        }
+      }
+    }
+    h3 {
+      color: rgb(64, 191, 255);
+      font-family: Raleway;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 180%;
+      letter-spacing: 0.5px;
+      text-align: right;
     }
   }
 }
