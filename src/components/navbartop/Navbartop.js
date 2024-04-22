@@ -3,6 +3,7 @@ import { IoPersonOutline } from "react-icons/io5";
 import { FiShoppingCart } from "react-icons/fi";
 import { IoSearchSharp } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 function Navbartop() {
   return (
@@ -30,7 +31,9 @@ function Navbartop() {
               <IoSearchSharp className="navbartop__icon" />
             </li>
             <li className="navbartop__item">
-              <FaRegHeart className="navbartop__icon" />
+              <NavLink to={"/like"}>
+                <FaRegHeart className="navbartop__icon" />
+              </NavLink>
             </li>
           </ul>
         </div>
