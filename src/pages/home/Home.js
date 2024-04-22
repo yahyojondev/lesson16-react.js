@@ -3,6 +3,7 @@ import HomeHero from "../../components/homeHero/HomeHero";
 import rasm1 from "../../assets/images/absoluteimg.svg";
 import rasm2 from "../../assets/images/absoluteimg2.png";
 import rasm3 from "../../assets/images/absoluteimg3.png";
+import Home__cards from "../../components/homeCards/Home__cards";
 
 function Home() {
   return (
@@ -49,6 +50,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Home__cards />
     </div>
   );
 }
